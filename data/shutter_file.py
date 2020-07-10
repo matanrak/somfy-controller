@@ -24,8 +24,6 @@ def load_shutter(shutter_id: str) -> Shutter:
     if not shutter_file_path.exists():
         raise Exception(f'Shutter "{shutter_id}" does not exist.')
 
-        shutter_file_path.read_text()
-
     return Shutter(**load_json_file())
 
 
