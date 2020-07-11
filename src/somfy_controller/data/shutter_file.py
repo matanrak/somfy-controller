@@ -5,9 +5,9 @@ from typing import Any
 from dataclasses import asdict
 import json
 
-from src.data import SHUTTER_DIR
-from src.data import init_dirs, load_json_file
-from src.somfy import Shutter
+from src.somfy_controller import SHUTTER_DIR
+from src.somfy_controller import init_dirs, load_json_file
+from src.somfy_controller import Shutter
 
 
 def get_shutter_file_path(shutter_id: str) -> Path:

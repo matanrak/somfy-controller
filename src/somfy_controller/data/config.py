@@ -4,8 +4,8 @@ from typing import Optional
 from pathlib import Path
 import json
 
-from src.data import CONFIG_PATH
-from src.data import load_json_file, init_dirs
+from src.somfy_controller import CONFIG_PATH
+from src.somfy_controller import load_json_file, init_dirs
 
 KEY_INITIAL_SHUTTER_POSITION = 'initial_shutter_position'
 KEY_TXGPIO = 'TXPGPIO'

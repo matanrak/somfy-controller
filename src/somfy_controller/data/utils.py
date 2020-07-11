@@ -4,7 +4,7 @@ from typing import Optional
 from pathlib import Path
 import json
 
-from src.data import DATA_DIR, SHUTTER_DIR
+from src.somfy_controller import DATA_DIR, SHUTTER_DIR
 
 
 def init_dirs():
